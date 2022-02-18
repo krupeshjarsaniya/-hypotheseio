@@ -1,5 +1,4 @@
-import { useState } from 'react'
-import ApexCharts, { ApexOptions } from 'apexcharts'
+import { ApexOptions } from 'apexcharts'
 import ReactApexChart from "react-apexcharts";
 
 interface Props {

@@ -1,4 +1,4 @@
-import { Card, Row, Col } from "react-bootstrap"
+import { Row, Col } from "react-bootstrap"
 import StarImg from '../assets/images/Vector.png'
 
 interface Props {

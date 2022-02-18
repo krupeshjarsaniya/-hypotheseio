@@ -1,5 +1,4 @@
-import { Card, Row, Col } from "react-bootstrap"
-import ArrowUP from "../assets/images/Arrow - Up 3.png"
+import { Row, Col } from "react-bootstrap"
 import ArrowDonwnCircle from "../assets/images/down-arroe.png"
 import ArrowUpCircle from "../assets/images/uparrow.png"
 import WifiIcpn from '../assets/images/wifi.png'
