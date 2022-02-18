@@ -1,0 +1,364 @@
+body {
+  background-image: url('./assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.w-15{
+  width: 15%;
+}
+.w-10{
+  width: 10%;
+}
+.mt-m3{
+  margin-top: -3%;
+}
+.mt-m5{
+  margin-top: -5%;
+}
+.mt-m8{
+  margin-top: -8%;
+}
+.w-5{
+  width: 5%;
+}
+.w-8{
+  width: 8%;
+}
+.navigation-menu {
+  background: rgba(20, 21, 24, 0.8);
+  border-radius: 12px;
+}
+
+.navigation-menu .nav-link{
+  font-size: 16px;
+  font-weight: 900;
+  color:#393D50 !important;
+}
+.navigation-menu .active{
+  color: #FFF !important;
+}
+.navigation-menu .profile-menu .btn-primary{
+  background-color: transparent;
+  border: none;
+  border-color: transparent;  
+}
+.navigation-menu .profile-menu .btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle{
+  background-color: transparent !important;
+  border: none;
+  border-color: transparent;
+}
+.navigation-menu .profile-menu .show>.btn-primary.dropdown-toggle:focus{
+   box-shadow: none !important;
+}
+
+.navigation-menu .profile-menu .btn-primary:focus{
+  box-shadow: none !important;
+}
+
+.navigation-menu .btn .badge {
+  position: relative;
+  top: -10px;
+  left: -16px;
+  background-color: #01CDEC !important;
+  border-radius: 55px;
+  height: 15px;
+  width: 6px;
+}
+
+.currency-card .name{
+  color: #A5ADCF;
+}
+.input-group input, .input-group span{
+  border-radius: 50px !important;
+}
+.input-group input, .input-group span{
+  background: rgba(47, 50, 65, 0.5);
+  border: none;
+}
+
+.currency-card .shortname {
+  color: #5D6588
+}
+
+.card{
+  background: #1E1F25CC;
+  border-radius: 15px;
+}
+
+.chatscreen{
+  background: #1E1F25CC;
+  color: #fff;
+  height: 100vh;
+}
+.chatbox .name span {
+  font-weight: 100;
+  font-size: 13.64px;
+  color: #fff;
+  float: right;
+}
+.chatbox .message{
+  background: #353841;
+  color: #fff;
+  margin: 0;
+  padding: 8px;
+  border-radius: 15px;
+  width: fit-content;
+}
+
+.chatscreen .searchicon{
+  right: 12px;
+  top: 7px;
+  width: 10%;
+}
+.chatscreen .chat-form {
+  bottom: 0;
+  background-color: #353841;
+  padding: 1%;
+  width: inherit;
+  padding-bottom: 5px;
+}
+.chatscreen input{
+  border: 1px solid #0ADDFF;
+  border-radius: 50px !important;
+}
+.chatscreen .chat-form .btn-outline-primary{
+  border: none;
+}
+.chatscreen .chat-form .btn-outline-primary:hover{
+  background: transparent;
+}
+
+.section-2, .section-3{
+  background: rgba(30, 31, 37, 0.7);
+  border-radius: 15px;
+}
+
+.section-2 .time {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15.4653px;
+  line-height: 19px;
+  color: #00B3F4;
+}
+
+.section-2 .minute {
+  font-size: 12.4653px;
+}
+.section-2 .right-arrow-slider{
+  position: absolute;
+  top: 7%;
+  right: 46%;
+  width: 1.5%;
+}
+
+.section-2 .left-arrow-slider{
+  position: absolute;
+  top: 7%;
+  left: 46%;
+  width: 1.5%;
+}
+
+.section-3 .btn-primary{
+  background-color: transparent;
+  border: none;
+}
+
+.section-3 .btn-border-bottom{
+  border-bottom: 1px dashed  white;
+  padding: 0;
+  border-radius: 0;
+  text-align: initial;
+  width: 75%;
+  padding-bottom: 6px;
+}
+.section-3 tspan, .currency-card tspan{
+  display: none;
+}
+
+.section2-card{
+  background: #212329;
+  margin: 3%;
+  padding: 3%;
+  position: relative;
+  /* border-radius: 10px; */
+  width: 77%;
+  margin: 0 auto;
+  border: 1px #016C75;
+}
+
+.section2-card .payout{
+  /* position: absolute; */
+  width: 183.85px;
+  height: 38.12px;
+  /* left: 46.4px;
+  top: 153.26px; */
+  background: linear-gradient(253.99deg, #121318 10.73%, #2E313A 85.11%);
+  border-radius: 0px 36.7697px 36.7697px 0px;
+  margin-left: -15%;
+}
+.section2-card .payout-active {
+    width: 183.85px;
+    height: 38.12px;
+    background: linear-gradient(253.99deg, #016C75 10.73%, #00F4C8 85.11%);
+    border-radius: 0px 36.7697px 36.7697px 0px;
+    margin-left: -15%;
+}
+.section2-card .payout-red {
+  width: 183.85px;
+  height: 38.12px;
+  background: linear-gradient(90deg, #5F1426 10.73%, #D43259 85.11%);
+  border-radius: 36.7697px 0px 0px  36.7697px;
+  z-index: 9;
+}
+
+.text-right-webkit{
+  text-align: -webkit-right;
+}
+
+.payout-red-parent{
+  margin-left: 13%;
+}
+.payout-red-katki{
+  position: absolute;
+  width: 30.5px;
+  height: 23.44px;
+  top: -12px;
+  background: #601527;
+  transform: rotate(220deg);
+  right: 2px;
+  z-index: -4;
+}
+
+.payout-gray-katki{
+  position: absolute;
+  width: 29.5px;
+  height: 31.44px;
+  top: 18px;
+  background: #161314;
+  transform: rotate(301deg);
+  left: -12%;
+  z-index: -4;
+}
+
+.red-text-shodow{
+  text-shadow: 0px 0px 16.5769px #D43259;
+}
+
+.blue-text-shodow{
+  text-shadow: 0px 0px 11.6725px #118790;
+}
+
+.searchbox .searchicon{
+  right: 12px;
+  top: 9px;
+}
+
+.currency-card line{
+  display: none;
+}
+
+.top-border-custom{
+  box-sizing: content-box;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to top, transparent, #01F4C8);
+  border-image-slice: 1;
+}
+
+.bottom-border-custom {
+  box-sizing: content-box;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, transparent, #601527);
+  border-image-slice: 1;
+}
+
+.start-image{
+  width: 23px;
+  height: 23px; 
+  top: 46%;
+  left: 42%;
+}
+
+@media (max-width:480px)  {
+  .currency-card{
+    margin-top: 4%;
+  }
+  .section-2 .left-arrow-slider {
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    width: 6%;
+  }
+
+  .section-2 .right-arrow-slider {
+    position: absolute;
+    top: 18%;
+    right: 35%;
+    width: 6%;
+  }
+
+  .profile-menu{
+    order: 2;
+    margin: 0 !important;
+  }
+  .navbar-toggler{
+    order: 3;
+  }
+  .navbar-collapse{
+    order: 5;
+  }
+  .navbar-nav{
+    max-height: initial !important;
+    width: 100% !important;
+  }
+  .navbar-brand{
+    width: 100%;
+  }
+  .start-image{
+    width: 23px;
+    height: 23px; 
+    top: 50%;
+    left: 34%;
+  }
+
+  .section-3 .row{
+    padding-top: 5%;
+  }
+
+  .section-3 .btn-border-bottom {
+    width: 46%;
+  }
+
+  .BNBUSDT-title{
+    text-align: center;
+    order: 0;
+  }
+  .timerdiv{
+    text-align: center !important;
+    order: 1;
+  }
+  .wifi-icon{
+    order: 2;
+  }
+  .navbar-light .navbar-toggler-icon {
+    background-image: url('./assets/images/menu.png');
+  }
+  .chatscreen {
+    background: #1E1F25CC;
+    color: #fff;
+    height: 100%;
+    /* margin-bottom: 5%; */
+  }
+  .chatscreen .searchicon {
+    right: 6px;
+    top: 5px;
+    width: 8%;
+  }
+  .chatscreen .chat-form {
+    padding: 2%;
+  }
+  .chatscreen form{
+    position: inherit !important;
+  }
+}
