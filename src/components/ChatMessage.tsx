@@ -9,7 +9,7 @@ export const ChatMessage: React.FC<Props> = ({ item }): JSX.Element => {
     return(
         <Row className="chatbox mb-2">
             <Col xs={3} sm={3} md={3} lg={3} className="position-relative" style={{height: "94px"}}>
-                <img src={item.image} alt="user" style={{borderRadius: "50px", width:"60px", height: "60px"}}/>
+                <img src={item.image} alt="user" height={60} width={60} style={{borderRadius: "50px"}}/>
                 <img src={StarImg} alt="star" className="position-absolute start-image"/>
             </Col>
             <Col xs={8} sm={8} md={8} lg={8}>

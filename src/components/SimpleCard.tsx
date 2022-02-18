@@ -22,14 +22,7 @@ export const SimpleCard: React.FC<Props> = ({currency}): JSX.Element => {
             {currency.srno > 3 && (
                  <b><img src={refresh} className="w-10"/> <span className="ms-2">Refresh</span></b>
             )}
-            {/* <b>{(currency.srno == 3) ? <><img src={WifiIcpn} className="w-15"/> <span className="text-white">Live</span></> : "EXPIRED"}</b>
-            <b>{(currency.srno > 3) ? <><img src={refresh} className="w-15"/> <span className="text-white">Refresh</span></> : "EXPIRED"}</b> */}
         </p>
-        {/* <div className="payout d-flex justify-content-between mb-3 position-relative" style={{color: "#7D8396"}}>
-            <p className="m-0 align-self-center ms-3">1.45x Payout</p>
-            <img src={ArrowUpCircle} />
-            <div className="payout-red-katki"/>
-        </div> */}
         <div className="position-relative">
             <div className={` d-flex justify-content-between mb-3 ${(currency.srno == 3) ? "payout-active" : "payout"}`} style={{color: "#7D8396"}}>
                 <p className={`m-0 align-self-center ms-3 ${(currency.srno == 3) ? "text-white" : ""}`}>1.45x Payout</p>
